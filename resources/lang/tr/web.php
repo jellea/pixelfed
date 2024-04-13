@@ -24,7 +24,7 @@ return [
 		'other' => 'Diğer',
 		'readMore' => 'Daha fazlası',
 		'success' => 'Başarılı',
-		'proceed' => 'Devam Et',
+		'proceed' => 'İlerleyiniz',
 		'next' => 'İleri',
 		'close' => 'Kapat',
 		'clickHere' => 'buraya tıklayın',
