@@ -46,7 +46,7 @@ return [
 		// Timelines
 		'homeFeed' => 'Domovská časová osa',
 		'localFeed' => 'Místní kanál',
-		'globalFeed' => 'Globalní časová osa',
+		'globalFeed' => 'Globální časová osa',
 
 		// Core features
 		'discover' => 'Objevovat',
