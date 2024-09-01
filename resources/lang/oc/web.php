@@ -7,7 +7,7 @@ return [
 		'commented' => 'Comentat',
 		'comments' => 'Comentaris',
 		'like' => 'Like',
-		'liked' => 'Liked',
+		'liked' => 'Agradat',
 		'likes' => 'Likes',
 		'share' => 'Share',
 		'shared' => 'Shared',
