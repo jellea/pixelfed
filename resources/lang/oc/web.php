@@ -60,7 +60,7 @@ return [
 		'drive' => 'Drive',
 		'settings' => 'Paramètres',
 		'compose' => 'Create New',
-		'logout' => 'Logout',
+		'logout' => '',
 
 		// Nav footer
 		'about' => 'A prepaus',
