@@ -27,7 +27,7 @@ return [
 		'proceed' => 'ดำเนินการ',
 		'next' => 'ถัดไป',
 		'close' => 'ปิด',
-		'clickHere' => 'คลิ๊กที่นี่',
+		'clickHere' => 'คลิกที่นี่',
 
 		'sensitive' => 'ละเอียดอ่อน',
 		'sensitiveContent' => 'เนื้อหาที่ละเอียดอ่อน',
@@ -162,7 +162,7 @@ return [
 		'modRemoveCWSuccess' => 'สำเร็จแล้วได้ลบคำเตือนเนื้อหา',
 		'modUnlistConfirm' => 'คุณแน่ใจหรือไม่ว่าต้องการที่จะไม่แสดงในโพสต์นี้?',
 		'modUnlistSuccess' => 'ไม่แสดงโพสต์สำเร็จแล้ว',
-		'modMarkAsSpammerConfirm' => 'Are you sure you want to mark this user as a spammer? All existing and future posts will be unlisted on timelines and a content warning will be applied.',
+		'modMarkAsSpammerConfirm' => 'คุณแน่ใจว่าจะทำเครื่องหมายผู้ใช้รายนี้ว่าเป็นสแปม? โพสต์ที่มีอยู่และในอนาคตจะถูกนำออกจากไทม์ไลน์และใส่คำเตือนเนื้อหา',
 		'modMarkAsSpammerSuccess' => 'ทำเครื่องหมายบัญชีบอกว่าเป็นสแปมเมอร์สำเร็จแล้ว',
 
 		'toFollowers' => 'ถึงผู้ติดตาม',
@@ -172,8 +172,8 @@ return [
 		'compactMode' => 'โหมดกะทัดรัด',
 		'embedConfirmText' => 'การใช้ตัวฝังนี้แสดงว่าคุณยอมรับของเรา',
 
-		'deletePostConfirm' => 'Are you sure you want to delete this post?',
-		'archivePostConfirm' => 'Are you sure you want to archive this post?',
+		'deletePostConfirm' => 'คุณแน่ใจหรือไม่ว่าต้องการลบโพสต์นี้?',
+		'archivePostConfirm' => 'คุณแน่ใจว่าจะเก็บโพสต์นี้ถาวร?',
 		'unarchivePostConfirm' => 'Are you sure you want to unarchive this post?',
 	],
 
@@ -193,7 +193,7 @@ return [
 	],
 
 	'hashtags' => [
-		'emptyFeed' => 'We can\'t seem to find any posts for this hashtag'
+		'emptyFeed' => 'ไม่พบโพสต์สำหรับแฮชแท็กนี้'
 	],
 
 	'report' => [
