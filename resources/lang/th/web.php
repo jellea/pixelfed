@@ -174,7 +174,7 @@ return [
 
 		'deletePostConfirm' => 'คุณแน่ใจหรือไม่ว่าต้องการลบโพสต์นี้?',
 		'archivePostConfirm' => 'คุณแน่ใจว่าจะเก็บโพสต์นี้ถาวร?',
-		'unarchivePostConfirm' => 'Are you sure you want to unarchive this post?',
+		'unarchivePostConfirm' => 'คุณแน่ใจว่าจะเลิกเก็บโพสต์นี้ถาวร?',
 	],
 
 	'story' => [
@@ -186,8 +186,8 @@ return [
 
 		'onboarding' => [
 			'welcome' => 'ยินดีต้อนรับ',
-			'thisIsYourHomeFeed' => 'This is your home feed, a chronological feed of posts from accounts you follow.',
-			'letUsHelpYouFind' => 'Let us help you find some interesting people to follow',
+			'thisIsYourHomeFeed' => 'นี่คือโฮมฟีดของคุณ ซึ่งเป็นฟีดที่จะแสดงโพสต์ตามลำดับเวลาจากบัญชีที่คุณติดตาม',
+			'letUsHelpYouFind' => 'ให้เราช่วยคุณค้นหาผู้คนที่น่าสนใจเพื่อติดตาม',
 			'refreshFeed' => 'รีเฟรชฟีดของฉัน',
 		],
 	],
