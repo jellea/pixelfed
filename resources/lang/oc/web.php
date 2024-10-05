@@ -16,7 +16,7 @@ return [
 		'bookmark' => 'Marcapaginas',
 
 		'cancel' => 'Anullar',
-		'copyLink' => 'Copy Link',
+		'copyLink' => 'Copiar lo ligam',
 		'delete' => 'Suprimir',
 		'error' => 'Error',
 		'errorMsg' => 'Something went wrong. Please try again later.',
