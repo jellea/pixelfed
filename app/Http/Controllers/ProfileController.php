@@ -70,38 +70,8 @@ class ProfileController extends Controller
         $isPrivate = false;
         $isBlocked = false;
         if (! $loggedIn) {
-            $key = 'profile:settings:'.$user->id;
-            $ttl = now()->addHours(6);
-            $settings = Cache::remember($key, $ttl, function () use ($user) {
-                return $user->user->settings;
-            });
-
-            if ($user->is_private == true) {
-                $profile = null;
-
-                return view('profile.private', compact('user'));
-            }
-
-            $owner = false;
-            $is_following = false;
-
-            $profile = $user;
-            $settings = [
-                'crawlable' => $settings->crawlable,
-                'following' => [
-                    'count' => $settings->show_profile_following_count,
-                    'list' => $settings->show_profile_following,
-                ],
-                'followers' => [
-                    'count' => $settings->show_profile_follower_count,
-                    'list' => $settings->show_profile_followers,
-                ],
-            ];
-
-            if($carousel) {
-                return view('profile.show_carousel', compact('profile', 'settings'));
-            }
-            return view('profile.show', compact('profile', 'settings'));
+        
+            return redirect('/login');
         } else {
             $key = 'profile:settings:'.$user->id;
             $ttl = now()->addHours(6);
