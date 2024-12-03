@@ -27,6 +27,8 @@ class StatusController extends Controller
 {
     public function show(Request $request, $username, $id)
     {
+
+        $this->authCheck();
         // redirect authed users to Metro 2.0
         if ($request->user()) {
             // unless they force static view
